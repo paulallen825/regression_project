@@ -35,12 +35,16 @@ Hypothesis 2 - I rejected the Null Hypothesis; there is a difference.
 alpha = .05
 $H_o$: There is no association between square foot of home and tax value.
 $H_a$: There is an association between square foot of home and tax value.
-Executive Summary - Conclusions & Next Steps
-Recommendations & next steps:
-I would recommend
 
-Pipeline Stages Breakdown
+Executive Summary - Conclusions & Next Steps
+
+Recommendations & next steps:
+
+
+Pipeline Stages Breakdown:
+
 Plan -> Acquire -> Prepare -> Explore -> Model -> Deliver
+
  Create README.md with data dictionary, project and business goals, come up with initial hypotheses.
  Acquire data from the SQL Database and create a function to automate this process. Save the function in an acquire.py file to import into the Final Report Notebook.
  Clean and prepare data for the first iteration through the pipeline, MVP preparation. Create a function to automate the process, store the function in a prepare.py module, and prepare data in Final Report Notebook by importing and using the funtion.
